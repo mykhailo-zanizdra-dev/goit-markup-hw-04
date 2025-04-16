@@ -86,13 +86,17 @@ address {
   text-align: center;
 }
 
-.service {
+.hero {
   background-color: #2e2f42;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero/img_hero_bg.jpg");
   text-align: center;
+  background-size: cover;
   padding: 188px 0;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
-.service-button {
+.hero-button {
   display: block;
   min-width: 169px;
   font-weight: 500;
@@ -108,8 +112,8 @@ address {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-.service button:hover,
-.service button:focus {
+.hero button:hover,
+.hero button:focus {
   background-color: #404bbf;
 }
 
@@ -216,6 +220,27 @@ address {
 .nav-list {
   display: flex;
   gap: 40px;
+}
+
+.nav-list li:first-child {
+  position: relative;
+}
+
+.nav-list li:first-child::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  border-radius: 2px;
+  width: 48px;
+  height: 4px;
+  background-color: #404BBF;
+  opacity: 0;
+  transition: opacity .1s ease;
+}
+
+.nav-list li:first-child:active::after {
+  opacity: 1;
 }
 
 .logo,
