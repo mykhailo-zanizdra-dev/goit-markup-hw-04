@@ -110,6 +110,7 @@ address {
   border-radius: 4px;
   border: none;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  transition: background-color .2s ease;
 }
 
 .hero button:hover,
@@ -190,11 +191,16 @@ address {
 
 .contact-info {
   color: #434455;
+  transition: color .2s ease;
 }
 
 .contact-info:hover,
 .contact-info:focus {
   color: #404bbf;
+}
+
+.home-link {
+  transition: color .2s ease;
 }
 
 .home-link:hover,
