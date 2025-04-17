@@ -118,6 +118,16 @@ address {
   background-color: #404bbf;
 }
 
+.advantages-icon-wrapper {
+  background-color: #F4F4FD;
+  border: 1px solid #8E8F99;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  padding: 24px 0;
+  margin-bottom: 8px;
+}
+
 .advantages-list {
   display: flex;
   flex-wrap: wrap;
