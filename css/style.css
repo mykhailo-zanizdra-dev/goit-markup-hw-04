@@ -127,7 +127,8 @@ address {
   border-radius: 4px;
   display: flex;
   justify-content: center;
-  padding: 24px 0;
+  align-items: center;
+  height: 112px;
   margin-bottom: 8px;
 }
 
