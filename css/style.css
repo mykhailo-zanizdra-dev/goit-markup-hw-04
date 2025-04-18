@@ -342,7 +342,7 @@ address {
 }
 
 .portfolio-item:hover .portfolio-item-description {
-  transform: translateY(0);
+  transform: translateY(0%);
 }
 
 .portfolio-item-text {
