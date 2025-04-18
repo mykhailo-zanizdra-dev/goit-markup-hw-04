@@ -400,16 +400,15 @@ address {
 
 .footer-content {
   display: flex;
-  justify-content: baseline;
 }
 
 .footer-contacts {}
 
 .footer-logo-wrapper {
-  padding-right: 120px;
+  margin-right: 120px;
 }
 
-.footer-contacts p {
+.footer-social-header {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -420,5 +419,6 @@ address {
 
 .footer-socials {
   display: flex;
+  align-items: baseline;
   gap: 16px;
 }
