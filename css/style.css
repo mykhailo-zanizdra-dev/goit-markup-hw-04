@@ -164,13 +164,29 @@ address {
 
 .team-member-item-socials {
   display: flex;
-  justify-content: space-between;
-  padding: 0 16px;
+  justify-content: center;
+  gap: 24px;
   margin-top: 8px;
 }
 
-.team-member-icon:hover {
-  fill: #a7aef5;
+.team-member-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.team-member-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-member-link.team-member-link:hover {
+  background-color: #404bbf;
 }
 
 .our-team {
