@@ -188,8 +188,15 @@ address {
 }
 
 .team-member-link:hover,
-.footer-link:hover {
+.team-member-link:focus,
+.footer-link:hover,
+.footer-link:focus {
   background-color: #404bbf;
+}
+
+.team-member-svg-icon,
+.footer-svg-icon {
+  fill: #f4f4fd;
 }
 
 .our-team {
@@ -396,16 +403,18 @@ address {
   justify-content: baseline;
 }
 
-.footer-contacts {
-  padding-left: 120px;
+.footer-contacts {}
+
+.footer-logo-wrapper {
+  padding-right: 120px;
 }
 
 .footer-contacts p {
   font-weight: 500;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #fff;
+  color: #ffffff;
   margin-bottom: 16px;
 }
 
