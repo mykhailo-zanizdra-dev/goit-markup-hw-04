@@ -188,10 +188,13 @@ address {
 }
 
 .team-member-link:hover,
-.team-member-link:focus,
+.team-member-link:focus {
+  background-color: #404bbf;
+}
+
 .footer-link:hover,
 .footer-link:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 
 .team-member-svg-icon,
@@ -400,9 +403,8 @@ address {
 
 .footer-content {
   display: flex;
+  align-items: baseline;
 }
-
-.footer-contacts {}
 
 .footer-logo-wrapper {
   margin-right: 120px;
