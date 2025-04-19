@@ -300,7 +300,7 @@ address {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-list li:first-child a:active::after {
+.nav-list li:first-child a::after {
   opacity: 1;
 }
 
